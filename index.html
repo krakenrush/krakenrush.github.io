@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KrakenRush</title>
+    <script src="js/phaser.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/game.js"></script>
+</head>
+<body>
+
+</body>
+  <div class="container">
+    <h1>KrakenRush</h1>
+    <div class="row">
+        <div id="game"></div>
+    </div>
+    <div class="row">
+      <br/>
+      <p>Game by Fabian and Tim Süberkrüb.</p>
+      <p>Music <a href="http://opengameart.org/content/space-boss-battle-theme">Orbital Colossus</a> by <a href="http://opengameart.org/users/matthewpablo">Matthew Pablo</a></p>
+      <p><a href="http://opengameart.org/content/skippy-fish-water-sound-collection">Fish eat and damage sound effects</a> by <a href="http://opengameart.org/users/jcpmcdonald">jcpmcdonald</a>.</p>
+      <p><a href="http://opengameart.org/content/8-bit-platformer-sfx">Coin sound effect</a> by <a href="http://opengameart.org/users/bart">bart</a>.</p>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-game-over" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Game Over</h4>
+        </div>
+        <div class="modal-body">
+          <p id="modal-game-over-text"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">New Game</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+</html>
